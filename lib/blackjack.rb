@@ -70,6 +70,7 @@ def runner
   # code runner here
   welcome 
   display_card_total(initial_round) #inital_round will have the total at first
+  prompt_user
   
   
 end
