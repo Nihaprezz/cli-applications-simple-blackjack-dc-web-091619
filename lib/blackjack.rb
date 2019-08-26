@@ -42,9 +42,7 @@ end
 
 def hit? argument
   # code hit? here
-  prompt_user
-  get_user_input
-  initial_round
+  
 end
 
 def invalid_command
