@@ -42,6 +42,8 @@ end
 
 def hit? card_total
   # code hit? here
+  prompt_user
+  
   #ask the user if they want to hit or stay
   user_input = get_user_input #set a variable to use for your if/else statement
   if user_input == "h"
