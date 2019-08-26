@@ -40,9 +40,9 @@ def initial_round
   sum
 end
 
-def hit?
+def hit? argument
   # code hit? here
-  prompt_user
+
 end
 
 def invalid_command
