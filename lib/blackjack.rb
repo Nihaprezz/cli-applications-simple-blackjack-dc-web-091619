@@ -43,6 +43,7 @@ end
 def hit? argument
   # code hit? here
   prompt_user
+  get_user_input
 
 end
 
