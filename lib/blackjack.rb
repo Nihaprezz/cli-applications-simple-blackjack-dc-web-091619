@@ -42,6 +42,7 @@ end
 
 def hit? argument
   # code hit? here
+  prompt_user
 
 end
 
