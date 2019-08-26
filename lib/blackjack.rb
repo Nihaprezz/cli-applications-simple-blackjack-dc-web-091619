@@ -40,8 +40,11 @@ def initial_round
   sum
 end
 
-def hit? argument
+def hit? total
   # code hit? here
+  prompt_user
+  
+  user_input = get_user_input
   
 end
 
