@@ -52,6 +52,7 @@ def hit? total
     total = total + deal_card
   else
     prompt_user
+    invalid_command
   end
   
 end
