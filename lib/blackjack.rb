@@ -50,7 +50,7 @@ def hit? card_total
     card_total += deal_card #increase your former total by the new number given by dealing another card
   elsif user_input == "s"
     card_total #return the number and prompt user to hit again
-  else
+  elsif !user_input == "s" || !user_input == "h"
     prompt_user
     invalid_command
   end
