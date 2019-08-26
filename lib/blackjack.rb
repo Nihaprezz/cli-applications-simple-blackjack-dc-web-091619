@@ -44,8 +44,13 @@ def hit? total
   # code hit? here
   prompt_user
   
-  user_input = get_user_input
+  user_input = get_user_input #stores the user input
   
+  if user_input == 's'
+    p "do nothing"
+  elsif user_input == 'h'
+    total = total + deal_card
+  end
 end
 
 def invalid_command
