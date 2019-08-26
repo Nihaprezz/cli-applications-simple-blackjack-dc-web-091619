@@ -5,7 +5,7 @@ end
 
 def deal_card
   # code #deal_card here
-  Math.floor(Math.random() * 11)
+  rand(11)
 end
 
 def display_card_total
