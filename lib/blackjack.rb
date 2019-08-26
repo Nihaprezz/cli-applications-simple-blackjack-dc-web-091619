@@ -50,6 +50,8 @@ def hit? total
     p "do nothing"
   elsif user_input == 'h'
     total = total + deal_card
+  else
+    invalid_command
   end
 end
 
