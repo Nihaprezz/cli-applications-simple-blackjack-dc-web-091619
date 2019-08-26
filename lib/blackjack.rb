@@ -55,7 +55,7 @@ def hit? card_total
     prompt_user
   end
   
-  card_total
+
 
 end
 
