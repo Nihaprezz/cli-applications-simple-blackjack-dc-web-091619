@@ -52,7 +52,7 @@ def hit? card_total
     invalid_command
   end
   
-  protect_user
+  prompt_user
 end
 
 def invalid_command
