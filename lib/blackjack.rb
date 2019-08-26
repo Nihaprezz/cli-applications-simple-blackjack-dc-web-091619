@@ -49,9 +49,10 @@ def hit? card_total
   elsif user_input == "s"
     card_total #return the number and prompt user to hit again
   else
-    
     invalid_command
   end
+  
+  protect_user
 end
 
 def invalid_command
